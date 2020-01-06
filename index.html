@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+    <meta name="author" content="Yevsieiev O.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body class="main-style">
+<header class="head-style">
+    <div class="container">
+        <h1>To Do List by Ar7nic</h1>
+        <form action="#" id="enter-task">
+        <label for="todo"><input type="text" class="enter-field" name="todo" id="todo" placeholder="Enter a task" value=""
+                                 autofocus></label><input type="submit" value="Save" class="button save-btn">
+        </form>
+    </div>
+</header>
+<section class="my-list">
+    <div class="container">
+            <ol id="list">
+            </ol>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div>Done list</div>
+        <ul id="done-list">
+        </ul>
+    </div>
+</section>
+<script src="assets/js/libs.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
